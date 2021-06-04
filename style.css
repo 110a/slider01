@@ -1,0 +1,174 @@
+@import 'https://fonts.googleapis.com/css?family=Sintony';
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #222;
+  padding: 0;
+  margin: 0;
+  font-family: "Sintony", sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: #000;
+}
+
+header {
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+}
+p {
+  text-shadow: 1px 1px 2px #666666;
+}
+.section {
+  text-align: left;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  clip: rect(0, auto, auto, 0);
+}
+.section .fixed {
+  overflow: hidden;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+.section .white {
+  color: #fff;
+}
+
+.section:nth-child(1) {
+  background-color: #fff;
+  color: #ffffff;
+  top: 0;
+  background-image: url("https://demo.chaikhana.media/storage/gallery_image/2234/DjljguSMTTora0dkOLKY16NwuX3FsKHfQifn4919.jpeg");
+  background-size: cover;
+  z-index: 1;
+}
+.section:nth-child(1) .fixed {
+  transform: translate(-50%, -50%);
+}
+
+.section:nth-child(2) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  background-image: url("https://demo.chaikhana.media/storage/gallery_image/2237/DtKGPgYPiGXi1VrSX7WdGltgY9H45DDsTcBY1X0I.jpeg");
+  background-size: cover;
+  color: #fff;
+  top: 100vh;
+  z-index: 2;
+}
+.section:nth-child(2) .fixed {
+  transform: translate(-50%, -50%);
+}
+
+.section:nth-child(3) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  background-color: #0a0ac2;
+  color: #fff;
+    background-image: url("https://demo.chaikhana.media/storage/gallery_image/2235/CQ3YuJU137sg9snniPf3CnCvSRmPhcIi53UaBmAB.jpeg");
+  background-size: cover;
+  top: 200vh;
+  z-index: 3;
+}
+.section:nth-child(3) .fixed {
+  transform: translate(-50%, -50%);
+}
+
+.section:nth-child(4) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  background-color: #85c20a;
+  color: #fff;
+      background-image: url("https://demo.chaikhana.media/storage/gallery_image/2255/sCBDkIs7TGbMTXlcWrozb2kSkZWTQMJFk7gbzD4E.jpeg");
+  background-size: cover;
+  top: 300vh;
+  z-index: 4;
+}
+.section:nth-child(4) .fixed {
+  transform: translate(-50%, -50%);
+}
+
+.section:nth-child(5) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  background-color: #850ac2;
+    color: #fff;
+      background-image: url("https://demo.chaikhana.media/storage/gallery_image/2249/bfQfI7Le1HEWUfUY1jcCMoQBHyGyAn0IWmn1hg9d.jpeg");
+  background-size: cover;
+  top: 400vh;
+  z-index: 5;
+}
+.section:nth-child(5) .fixed {
+  transform: translate(-50%, -50%);
+}
+
+.section:nth-child(6) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  background-color: #0ac20a;
+      color: #fff;
+      background-image: url("https://demo.chaikhana.media/storage/gallery_image/2239/blJ7UzZ7MmFjo0OKgLcv3nSigmqAU01aBLOUPerw.jpeg");
+  background-size: cover;
+  top: 500vh;
+  z-index: 6;
+}
+.section:nth-child(6) .fixed {
+  transform: translate(-50%, -50%);
+}
+
+.section:nth-child(7) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  background-color: #c20a85;
+      color: #fff;
+      background-image: url("https://demo.chaikhana.media/storage/gallery_image/2246/pBoTLp15wrRVpiC5fBDume97fWfUJITjNOkHazPv.jpeg");
+  background-size: cover;
+  top: 600vh;
+  z-index: 7;
+}
+.section:nth-child(7) .fixed {
+  transform: translate(-50%, -50%);
+}
+
+.section:nth-child(8) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  background-color: #0ac285;
+      color: #fff;
+      background-image: url("https://demo.chaikhana.media/storage/gallery_image/2239/blJ7UzZ7MmFjo0OKgLcv3nSigmqAU01aBLOUPerw.jpeg");
+  background-size: cover;
+  top: 700vh;
+  z-index: 8;
+}
+.section:nth-child(8) .fixed {
+  transform: translate(-50%, -50%);
+}
+
+.section:nth-child(9) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  background-color: red;
+      color: #fff;
+      background-image: url("https://demo.chaikhana.media/storage/gallery_image/2243/PACVTeL5oOd2hGSLlnaOzvKbQJjRZhDWJj8lL3Sk.jpeg");
+  background-size: cover;
+  top: 800vh;
+  z-index: 9;
+}
+.section:nth-child(9) .fixed {
+  transform: translate(-50%, -50%);
+}
+
+.section:nth-child(10) {
+  background-color: #000;
+      color: #fff;
+      background-image: url("https://demo.chaikhana.media/storage/gallery_image/2240/Qi2wyaPhA8CrsBa3u8SO2qxJTSDumAIR7F2JnS2E.jpeg");
+  background-size: cover;
+  top: 900vh;
+  z-index: 10;
+}
+.section:nth-child(10) .fixed {
+  transform: translate(-50%, -50%);
+}
+
+.oop {
+  position: relative;
+  z-index: auto;
+  height: 10px;
+  background: linear-gradient(141deg, #48ded4 0%, #a026bf 51%, #e82c75 75%);
+}
