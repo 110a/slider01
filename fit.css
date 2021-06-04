@@ -29,6 +29,7 @@ p {
   overflow: hidden;
   clip: rect(0, auto, auto, 0);
   font-size: 18px;
+    background-color: #000000;
 }
 /* .section .fixed {
   overflow: hidden;
@@ -46,14 +47,22 @@ p {
 .section .white {
   color: #fff;
 }
-
+img {
+  height: 100vh;
+}
+img[class] {
+    width: 100%;
+}
+.object-fit_container {
+  object-fit: scale-down;
+}
 .section:nth-child(1) {
-  background-color: #fff;
+  /* background-color: #fff; */
   color: #ffffff;
   top: 0;
-  background-image: url("https://demo.chaikhana.media/storage/gallery_image/2234/DjljguSMTTora0dkOLKY16NwuX3FsKHfQifn4919.jpeg");
+  /* background-image: url("https://demo.chaikhana.media/storage/gallery_image/2234/DjljguSMTTora0dkOLKY16NwuX3FsKHfQifn4919.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   z-index: 1;
 }
 /* .section:nth-child(1) .fixed {
@@ -62,9 +71,9 @@ p {
 
 .section:nth-child(2) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-image: url("https://demo.chaikhana.media/storage/gallery_image/2237/DtKGPgYPiGXi1VrSX7WdGltgY9H45DDsTcBY1X0I.jpeg");
+  /* background-image: url("https://demo.chaikhana.media/storage/gallery_image/2237/DtKGPgYPiGXi1VrSX7WdGltgY9H45DDsTcBY1X0I.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   color: #fff;
   top: 100vh;
   z-index: 2;
@@ -75,11 +84,11 @@ p {
 
 .section:nth-child(3) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-color: #0a0ac2;
+  /* background-color: #0a0ac2; */
   color: #fff;
-    background-image: url("https://demo.chaikhana.media/storage/gallery_image/2235/CQ3YuJU137sg9snniPf3CnCvSRmPhcIi53UaBmAB.jpeg");
+    /* background-image: url("https://demo.chaikhana.media/storage/gallery_image/2235/CQ3YuJU137sg9snniPf3CnCvSRmPhcIi53UaBmAB.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   top: 200vh;
   z-index: 3;
 }
@@ -89,11 +98,11 @@ p {
 
 .section:nth-child(4) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-color: #85c20a;
+  /* background-color: #85c20a; */
   color: #fff;
-      background-image: url("https://demo.chaikhana.media/storage/gallery_image/2255/sCBDkIs7TGbMTXlcWrozb2kSkZWTQMJFk7gbzD4E.jpeg");
+      /* background-image: url("https://demo.chaikhana.media/storage/gallery_image/2255/sCBDkIs7TGbMTXlcWrozb2kSkZWTQMJFk7gbzD4E.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   top: 300vh;
   z-index: 4;
 }
@@ -103,11 +112,11 @@ p {
 
 .section:nth-child(5) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-color: #850ac2;
+  /* background-color: #850ac2; */
     color: #fff;
-      background-image: url("https://demo.chaikhana.media/storage/gallery_image/2249/bfQfI7Le1HEWUfUY1jcCMoQBHyGyAn0IWmn1hg9d.jpeg");
+      /* background-image: url("https://demo.chaikhana.media/storage/gallery_image/2249/bfQfI7Le1HEWUfUY1jcCMoQBHyGyAn0IWmn1hg9d.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   top: 400vh;
   z-index: 5;
 }
@@ -117,11 +126,11 @@ p {
 
 .section:nth-child(6) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-color: #0ac20a;
+  /* background-color: #0ac20a; */
       color: #fff;
-      background-image: url("https://demo.chaikhana.media/storage/gallery_image/2239/blJ7UzZ7MmFjo0OKgLcv3nSigmqAU01aBLOUPerw.jpeg");
+      /* background-image: url("https://demo.chaikhana.media/storage/gallery_image/2239/blJ7UzZ7MmFjo0OKgLcv3nSigmqAU01aBLOUPerw.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   top: 500vh;
   z-index: 6;
 }
@@ -131,11 +140,11 @@ p {
 
 .section:nth-child(7) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-color: #c20a85;
+  /* background-color: #c20a85; */
       color: #fff;
-      background-image: url("https://demo.chaikhana.media/storage/gallery_image/2246/pBoTLp15wrRVpiC5fBDume97fWfUJITjNOkHazPv.jpeg");
+      /* background-image: url("https://demo.chaikhana.media/storage/gallery_image/2246/pBoTLp15wrRVpiC5fBDume97fWfUJITjNOkHazPv.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   top: 600vh;
   z-index: 7;
 }
@@ -145,11 +154,11 @@ p {
 
 .section:nth-child(8) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-color: #0ac285;
+  /* background-color: #0ac285; */
       color: #fff;
-      background-image: url("https://demo.chaikhana.media/storage/gallery_image/2239/blJ7UzZ7MmFjo0OKgLcv3nSigmqAU01aBLOUPerw.jpeg");
+      /* background-image: url("https://demo.chaikhana.media/storage/gallery_image/2239/blJ7UzZ7MmFjo0OKgLcv3nSigmqAU01aBLOUPerw.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   top: 700vh;
   z-index: 8;
 }
@@ -159,11 +168,11 @@ p {
 
 .section:nth-child(9) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-color: red;
+  /* background-color: red; */
       color: #fff;
-      background-image: url("https://demo.chaikhana.media/storage/gallery_image/2243/PACVTeL5oOd2hGSLlnaOzvKbQJjRZhDWJj8lL3Sk.jpeg");
+      /* background-image: url("https://demo.chaikhana.media/storage/gallery_image/2243/PACVTeL5oOd2hGSLlnaOzvKbQJjRZhDWJj8lL3Sk.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   top: 800vh;
   z-index: 9;
 }
@@ -172,11 +181,11 @@ p {
 } */
 
 .section:nth-child(10) {
-  background-color: #000;
+  /* background-color: #000; */
       color: #fff;
-      background-image: url("https://demo.chaikhana.media/storage/gallery_image/2240/Qi2wyaPhA8CrsBa3u8SO2qxJTSDumAIR7F2JnS2E.jpeg");
+      /* background-image: url("https://demo.chaikhana.media/storage/gallery_image/2240/Qi2wyaPhA8CrsBa3u8SO2qxJTSDumAIR7F2JnS2E.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   top: 900vh;
   z-index: 10;
 }
